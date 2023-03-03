@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>examination</title>
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-black text-white">
+    <div class="js-entery">
+    <h1 class="w-44 text-white mx-auto text-4xl mt-6">Avto test </h1>
+    <div class=" w-8/12 mx-auto flex gap-y-10 flex-col mt-10">
+        <button class="js-easy bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Easy : time 10:00
+        </button>
+        <button class="js-medium bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Medium : time 5:00
+        </button>
+        <button class="js-hard bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Hard : time 3:00
+        </button>
+    </div>
+</div>
+
+    <div class="main-content hidden w-6/12 mx-auto  pb-12">
+
+        <div class="header flex gap-x-20 mt-10 mx-auto">
+            <h2 class="js-level text-2xl">Easy</h2>
+            <p class="js-time text-2xl">time: 10:00</p>
+            <p class="js-correct-answers text-2xl"> correct: 0</p>
+            <p class="js-wrong-answers text-2xl">chances: 5</p>
+        </div>
+
+
+        <ul class="js-list">
+            <li class="list_item">
+                <div class="content">
+                    <div class="img_and_quest ">
+                        <div class="img-box mx-auto">
+                        <img class="js-img image mx-auto mt-20" src="" alt="" width="150" height="150">
+                    </div>
+                        <p class="js-question text-4xl w-90 mt-10 mx-auto"> Bu qanday yo'l belgisi</p>
+                    </div>
+                    <div class="button_box flex flex-col gap-x-10">
+                        <button class="js-answer1 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-5"></button>
+                        <button class="js-answer2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-5"></button>
+                        <button class="js-answer3 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-5"></button>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="js-result w-6/12  mx-auto mt-10 text-4xl hidden">
+        <p class="js-fail-result"></p>
+        <p class="js-correct-result"></p>
+
+        <p>claps  claps!!!</p>
+    </div>
+
+    <script type="module" src="../test.js"></script>
+    <script type="module" src="../main.js"></script>
+</body>
+
+</html>
